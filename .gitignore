@@ -1,1 +1,2 @@
 .vs RockPaperScissorsApp/.vs RockPaperScissorsApp/.vs/* *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo __pycache__ *.rej *~ #*# .#* .*.swp .DS_Store obj bin debug release ignore cvs .cvs .res thumbs.db *.bak *.class *.exe *.dll *.mine *.obj *.ncb *.lib *.log *.idb *.pdb *.ilk *.msi* *.pch *.suo *.exp *.*~ *.~* ~*.*  *.db *.csproj.user *.user *.generated.cs 
+RockPaperScissorsApp/.vs/RockPaperScissorsApp/v16/Server/sqlite3/db.lock
