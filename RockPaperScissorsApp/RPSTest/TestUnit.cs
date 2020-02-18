@@ -33,13 +33,12 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            var weaponchoice = (Weapon)(new Random()).Next(0, 3);
-            Player player2 = new Player(weaponchoice.ToString());
+            Player player2 = new Player(RPSGame.RandomWeapon());
 
             //Act
             output = player2.Weapon.ToString();
             //Assert
-            Assert.AreEqual(weaponchoice.ToString(), output);
+            Assert.AreEqual(RPSGame.RandomWeapon(), output);
         }
 
         [Test]
@@ -91,8 +90,7 @@ namespace RPSTest
             //Arrange
             output = string.Empty;
             Player player1 = new Player("Rock");
-            var weaponchoice = (Weapon)(new Random()).Next(0, 3);
-            Player player2 = new Player(weaponchoice.ToString());
+            Player player2 = new Player(RPSGame.RandomWeapon());
             //Act
             output = RPSGame.GameRules(player1, player2);
             //Assert

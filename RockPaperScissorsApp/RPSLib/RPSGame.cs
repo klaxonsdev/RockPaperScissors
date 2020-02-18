@@ -47,7 +47,5 @@ namespace RPSLib
         public string Weapon { get; }
     }
 
-    //Weapon Choice for player 2
-    public enum Weapon {Rock, Paper, Scissors}
 
 }
