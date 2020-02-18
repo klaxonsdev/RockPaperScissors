@@ -108,6 +108,7 @@ namespace RPSTest
             }
         }
 
+        //Testing the random method 
         [Test]
         public void RockRandomness()
         {
@@ -165,6 +166,7 @@ namespace RPSTest
             Assert.GreaterOrEqual(count, 0);
         }
 
+        //Testing the player properties
         [Test]
         public void WinningcountPlayer1()
         {
@@ -179,5 +181,21 @@ namespace RPSTest
             //Assert
             Assert.AreEqual(100, player1.Winnings);
         }
+
+        [Test]
+        public void WinningcountPlayer2()
+        {
+            //Arrange
+            Player player1 = new Player("Rock");
+            Player player2 = new Player("Paper");
+            //Act
+            for (int i = 0; i < 100; i++)
+            {
+                RPSGame.GameRules(player1, player2);
+            }
+            //Assert
+            Assert.AreEqual(100, player2.Winnings);
+        }
+
     }
 }

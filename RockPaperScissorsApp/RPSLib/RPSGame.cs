@@ -9,7 +9,7 @@ namespace RPSLib
     public class RPSGame
     {
         //Setting up the basic game rule to decide who's the winner 
-        //
+        //only for Player 1 = Rock Player 2 = Random
         public static string GameRules(Player player1,Player player2)
         {
             string winner = string.Empty;
@@ -20,10 +20,12 @@ namespace RPSLib
             else if (player2.Weapon=="Paper")
             {
                 winner = "Player 2";
+                player2.Winnings++;
             }
             else
             {
                 winner = "Player 1";
+                player1.Winnings++;
             }
             return winner;
         }
@@ -37,14 +39,20 @@ namespace RPSLib
         }
     }
 
-    //Setting up the Player classe 
+    //Setting up the Player class
     public class Player
     {
         public Player(string weapon)
         {
             Weapon = weapon;
         }
-        public string Weapon { get; }
+        //Constructor
+        public Player()
+        {
+            
+        }
+        // Player attributes
+        public string Weapon { get; set; }
         public int Winnings { get; set; }
     }
 
