@@ -45,6 +45,7 @@ namespace RPSLib
             Weapon = weapon;
         }
         public string Weapon { get; }
+        public int Winnings { get; set; }
     }
 
 

@@ -163,8 +163,21 @@ namespace RPSTest
             }
             //Assert
             Assert.GreaterOrEqual(count, 0);
+        }
 
-
+        [Test]
+        public void WinningcountPlayer1()
+        {
+            //Arrange
+            Player player1 = new Player("Rock");
+            Player player2 = new Player("Scissors");
+            //Act
+            for (int i = 0; i < 100; i++)
+            {
+                RPSGame.GameRules(player1, player2);
+            }
+            //Assert
+            Assert.AreEqual(100, player1.Winnings);
         }
     }
 }
