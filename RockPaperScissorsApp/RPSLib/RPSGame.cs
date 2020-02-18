@@ -27,6 +27,14 @@ namespace RPSLib
             }
             return winner;
         }
+
+        public static string RandomWeapon()
+        {
+            string[] weapon = { "Rock", "Paper", "Scissors" };
+            Random rnd = new Random();
+            int rndWeaponIndex = rnd.Next(weapon.Length);
+            return weapon[rndWeaponIndex];
+        }
     }
 
     //Setting up the Player classe 

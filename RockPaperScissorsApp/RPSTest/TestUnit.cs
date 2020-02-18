@@ -26,6 +26,7 @@ namespace RPSTest
             Assert.AreEqual("Rock", output);
 
         }
+
         [Test]
         //Testing the player 2 with random parameter with the choice of "Rock, Paper, Scissors"
         public void Player2()
@@ -40,6 +41,7 @@ namespace RPSTest
             //Assert
             Assert.AreEqual(weaponchoice.ToString(), output);
         }
+
         [Test]
         //Testing game result for Rock vs Rock
         public void RockvsRock()
@@ -53,7 +55,9 @@ namespace RPSTest
             //Assert
             Assert.AreEqual("Draw", output);
         }
+
         [Test]
+        //Testing game result for Rock vs Paper
         public void RockvsPaper()
         {
             //Arrange
@@ -65,7 +69,9 @@ namespace RPSTest
             //Assert
             Assert.AreEqual("Player 2", output);
         }
+
         [Test]
+        //Testing game result for Rock vs Scissors
         public void RockvsScissors()
         {
             //Arrange
@@ -77,7 +83,9 @@ namespace RPSTest
             //Assert
             Assert.AreEqual("Player 1", output);
         }
+
         [Test]
+        //Testing game result for Rock vs (Rock or Paper or Scissors)
         public void RockvsRandom()
         {
             //Arrange
@@ -100,7 +108,65 @@ namespace RPSTest
             {
                 Assert.AreEqual("Player 1", output);
             }
+        }
+
+        [Test]
+        public void RockRandomness()
+        {
+            //Arrange
+            int count = 0;
+
+            //Act
+            for (int i = 0; i < 100; i++)
+            {
+                if (RPSGame.RandomWeapon() == "Rock")
+                {
+                    count++;
+                }                
+            }
+            //Assert
+            Assert.GreaterOrEqual(count, 0);
             
+
+        }
+        [Test]
+        public void PaperRandomness()
+        {
+            //Arrange
+            int count = 0;
+
+            //Act
+            for (int i = 0; i < 100; i++)
+            {
+                if (RPSGame.RandomWeapon() == "Paper")
+                {
+                    count++;
+                }
+            }
+            //Assert
+            Assert.GreaterOrEqual(count, 0);
+
+
+        }
+
+        [Test]
+        public void ScissorsRandomness()
+        {
+            //Arrange
+            int count = 0;
+
+            //Act
+            for (int i = 0; i < 100; i++)
+            {
+                if (RPSGame.RandomWeapon() == "Scissors")
+                {
+                    count++;
+                }
+            }
+            //Assert
+            Assert.GreaterOrEqual(count, 0);
+
+
         }
     }
 }
