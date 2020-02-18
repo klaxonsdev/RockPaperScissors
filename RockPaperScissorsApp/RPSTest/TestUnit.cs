@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using RPSLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            RPSLib.Player player1 = new RPSLib.Player("Rock");
+            Player player1 = new RPSLib.Player("Rock");
 
             //Act
             output= player1.Weapon.ToString();
@@ -29,8 +30,8 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            var weaponchoice = (RPSLib.Weapon)(new Random()).Next(0, 3);
-            RPSLib.Player player2 = new RPSLib.Player(weaponchoice.ToString());
+            var weaponchoice = (Weapon)(new Random()).Next(0, 3);
+            Player player2 = new Player(weaponchoice.ToString());
 
             //Act
             output = player2.Weapon.ToString();
@@ -38,16 +39,16 @@ namespace RPSTest
             Assert.AreEqual(weaponchoice.ToString(), output);
         }
         [Test]
-        public void WhoWin()
+        public void RockvsRock()
         {
             //Arrange
             output = string.Empty;
-            
-
+            RPSLib.Player player1 = new RPSLib.Player("Rock");
+            RPSLib.Player player2 = new RPSLib.Player("Rock");
             //Act
-            output = player2.Weapon.ToString();
+            output = RPSGame.GameRules( player1, player2);
             //Assert
-            Assert.AreEqual(weaponchoice.ToString(), output);
+            Assert.AreEqual(string.Empty, output);
         }
 
     }

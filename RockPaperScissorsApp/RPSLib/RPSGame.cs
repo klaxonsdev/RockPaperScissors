@@ -8,7 +8,10 @@ namespace RPSLib
 {
     public class RPSGame
     {
-
+        public static string GameRules(Player player1,Player player2)
+        {
+            return string.Empty;
+        }
     }
 
     public class Player
