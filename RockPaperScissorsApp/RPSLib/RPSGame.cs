@@ -19,6 +19,10 @@ namespace RPSLib
             {
                 winner = "Player 2";
             }
+            else
+            {
+                winner = "Player 1";
+            }
             return winner;
         }
     }

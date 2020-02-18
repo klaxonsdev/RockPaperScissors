@@ -17,7 +17,7 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            Player player1 = new RPSLib.Player("Rock");
+            Player player1 = new Player("Rock");
 
             //Act
             output= player1.Weapon.ToString();
@@ -43,8 +43,8 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            RPSLib.Player player1 = new RPSLib.Player("Rock");
-            RPSLib.Player player2 = new RPSLib.Player("Rock");
+            Player player1 = new Player("Rock");
+            Player player2 = new Player("Rock");
             //Act
             output = RPSGame.GameRules( player1, player2);
             //Assert
@@ -55,8 +55,8 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            RPSLib.Player player1 = new RPSLib.Player("Rock");
-            RPSLib.Player player2 = new RPSLib.Player("Paper");
+            Player player1 = new Player("Rock");
+            Player player2 = new Player("Paper");
             //Act
             output = RPSGame.GameRules(player1, player2);
             //Assert
@@ -67,12 +67,37 @@ namespace RPSTest
         {
             //Arrange
             output = string.Empty;
-            RPSLib.Player player1 = new RPSLib.Player("Rock");
-            RPSLib.Player player2 = new RPSLib.Player("Scissors");
+            Player player1 = new Player("Rock");
+            Player player2 = new Player("Scissors");
             //Act
             output = RPSGame.GameRules(player1, player2);
             //Assert
             Assert.AreEqual("Player 1", output);
+        }
+        [Test]
+        public void RockvsRandom()
+        {
+            //Arrange
+            output = string.Empty;
+            Player player1 = new Player("Rock");
+            var weaponchoice = (Weapon)(new Random()).Next(0, 3);
+            Player player2 = new Player(weaponchoice.ToString());
+            //Act
+            output = RPSGame.GameRules(player1, player2);
+            //Assert
+            if (player2.Weapon=="Rock")
+            {
+                Assert.AreEqual("Draw", output);
+            }
+            else if (player2.Weapon== "Paper")
+            {
+                Assert.AreEqual("Player 2", output);
+            }
+            else
+            {
+                Assert.AreEqual("Player 1", output);
+            }
+            
         }
     }
 }
