@@ -10,7 +10,12 @@ namespace RPSLib
     {
         public static string GameRules(Player player1,Player player2)
         {
-            return string.Empty;
+            string winner = string.Empty;
+            if (player1.Weapon==player2.Weapon)
+            {
+                winner = "Draw";
+            }
+            return winner;
         }
     }
 
