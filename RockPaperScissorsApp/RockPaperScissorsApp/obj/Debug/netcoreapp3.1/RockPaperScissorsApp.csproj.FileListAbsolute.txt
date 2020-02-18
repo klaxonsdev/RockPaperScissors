@@ -9,3 +9,6 @@ C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp
 C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.AssemblyInfo.cs
 C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.dll
 C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RPSLib.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RPSLib.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.csproj.CopyComplete

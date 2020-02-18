@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "RPSLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RPSLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RPSLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RPSLib/1.0.0": {
+      "type": "project",
+      "path": "../RPSLib/RPSLib.csproj",
+      "msbuildProject": "../RPSLib/RPSLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "RPSLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Faiz Akbar Daud\\.nuget\\packages\\": {}
@@ -32,7 +50,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj": {
+              "projectPath": "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

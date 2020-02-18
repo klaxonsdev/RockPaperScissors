@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "RockPaperScissorsApp/1.0.0": {
+        "dependencies": {
+          "RPSLib": "1.0.0"
+        },
         "runtime": {
           "RockPaperScissorsApp.dll": {}
+        }
+      },
+      "RPSLib/1.0.0": {
+        "runtime": {
+          "RPSLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "RockPaperScissorsApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RPSLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

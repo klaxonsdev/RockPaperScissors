@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj": {
+                "projectPath": "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +58,17 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj",
+        "projectName": "RPSLib",
+        "projectPath": "C:\\Users\\Faiz Akbar Daud\\Documents\\GitHub\\RockPaperScissors\\RockPaperScissorsApp\\RPSLib\\RPSLib.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
