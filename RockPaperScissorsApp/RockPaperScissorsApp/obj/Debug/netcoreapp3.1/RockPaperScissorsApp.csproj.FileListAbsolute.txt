@@ -1,0 +1,11 @@
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RockPaperScissorsApp.exe
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RockPaperScissorsApp.deps.json
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RockPaperScissorsApp.runtimeconfig.json
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RockPaperScissorsApp.runtimeconfig.dev.json
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RockPaperScissorsApp.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netcoreapp3.1\RockPaperScissorsApp.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.csprojAssemblyReference.cache
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.AssemblyInfoInputs.cache
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.AssemblyInfo.cs
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netcoreapp3.1\RockPaperScissorsApp.pdb

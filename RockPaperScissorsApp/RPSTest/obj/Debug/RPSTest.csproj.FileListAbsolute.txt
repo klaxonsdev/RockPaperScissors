@@ -1,0 +1,15 @@
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\obj\Debug\RPSTest.csprojAssemblyReference.cache
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\nunit.engine.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\nunit.engine.api.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\RPSTest.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\RPSTest.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\nunit.framework.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\RPSLib.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\RPSLib.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\nunit.framework.pdb
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\bin\Debug\nunit.framework.xml
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\obj\Debug\RPSTest.csproj.CopyComplete
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\obj\Debug\RPSTest.dll
+C:\Users\Faiz Akbar Daud\Documents\GitHub\RockPaperScissors\RockPaperScissorsApp\RPSTest\obj\Debug\RPSTest.pdb
