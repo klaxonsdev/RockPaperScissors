@@ -15,6 +15,10 @@ namespace RPSLib
             {
                 winner = "Draw";
             }
+            else if (player2.Weapon=="Paper")
+            {
+                winner = "Player 2";
+            }
             return winner;
         }
     }

@@ -62,5 +62,17 @@ namespace RPSTest
             //Assert
             Assert.AreEqual("Player 2", output);
         }
+        [Test]
+        public void RockvsScissors()
+        {
+            //Arrange
+            output = string.Empty;
+            RPSLib.Player player1 = new RPSLib.Player("Rock");
+            RPSLib.Player player2 = new RPSLib.Player("Scissors");
+            //Act
+            output = RPSGame.GameRules(player1, player2);
+            //Assert
+            Assert.AreEqual("Player 1", output);
+        }
     }
 }
