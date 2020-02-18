@@ -8,6 +8,8 @@ namespace RPSLib
 {
     public class RPSGame
     {
+        //Setting up the basic game rule to decide who's the winner 
+        //
         public static string GameRules(Player player1,Player player2)
         {
             string winner = string.Empty;
@@ -27,6 +29,7 @@ namespace RPSLib
         }
     }
 
+    //Setting up the Player classe 
     public class Player
     {
         public Player(string weapon)
@@ -36,6 +39,7 @@ namespace RPSLib
         public string Weapon { get; }
     }
 
+    //Weapon Choice for player 2
     public enum Weapon {Rock, Paper, Scissors}
 
 }

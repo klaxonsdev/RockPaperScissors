@@ -13,6 +13,7 @@ namespace RPSTest
     {
         string output;
         [Test]
+        //Testing the player 1 with static parameter "Rock"
         public void Player1()
         {
             //Arrange
@@ -26,6 +27,7 @@ namespace RPSTest
 
         }
         [Test]
+        //Testing the player 2 with random parameter with the choice of "Rock, Paper, Scissors"
         public void Player2()
         {
             //Arrange
@@ -39,6 +41,7 @@ namespace RPSTest
             Assert.AreEqual(weaponchoice.ToString(), output);
         }
         [Test]
+        //Testing game result for Rock vs Rock
         public void RockvsRock()
         {
             //Arrange
